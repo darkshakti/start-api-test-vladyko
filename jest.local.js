@@ -4,7 +4,7 @@ module.exports = {
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
   },
-  testMatch: ['**/specs/**/index.spec.js'],
+  testMatch: ['**/specs/**/index.spec.js', '**/specs/**/api.spec.js', '**/specs/**/test.spec.js' ],
   testRunner: 'jest-jasmine2',
   setupFilesAfterEnv: ['jest-allure/dist/setup'],
   globals: {
